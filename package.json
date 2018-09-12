@@ -1,0 +1,27 @@
+{
+  "name": "nodejssimpleaapp",
+  "version": "0.0.1",
+  "description": "NodeJSSimpleApp",
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "author": {
+    "name": "Victor Santana"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Welasco/NodeJSSimpleApp.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "fs": "0.0.0",
+    "body-parser": "1.18.2",
+    "os": "0.1.1",
+    "ejs": "2.6.1",
+    "nconf": "0.10.0",
+    "node-netstat": "1.4.2"
+  }
+}
